@@ -9,13 +9,17 @@ import SwiftUI
 
 struct ContentView: View {
     var body: some View {
-        VStack {
-            Image(systemName: "globe")
-                .imageScale(.large)
-                .foregroundColor(.accentColor)
-            Text("Hello, world!")
+        List { // to show as a list
+            ForEach(myFavorites) { favorite in // like for loop
+                Section(header: Text(favorite.title)) { //to show as a section
+                    ForEach(favorite.elements) { element in // again like a for loop
+                        Text(element.name)
+                    }
+                }
+            }
         }
-        .padding()
+        
+  
     }
 }
 
