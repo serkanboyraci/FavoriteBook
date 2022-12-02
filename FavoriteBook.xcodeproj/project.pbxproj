@@ -12,6 +12,7 @@
 		608896362939472E00615C0A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 608896352939472E00615C0A /* Assets.xcassets */; };
 		608896392939472E00615C0A /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 608896382939472E00615C0A /* Preview Assets.xcassets */; };
 		608896402939FDA700615C0A /* FavoriteModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6088963F2939FDA700615C0A /* FavoriteModel.swift */; };
+		60889642293A75D000615C0A /* DetailsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60889641293A75D000615C0A /* DetailsView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -21,6 +22,7 @@
 		608896352939472E00615C0A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		608896382939472E00615C0A /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		6088963F2939FDA700615C0A /* FavoriteModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoriteModel.swift; sourceTree = "<group>"; };
+		60889641293A75D000615C0A /* DetailsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailsView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +58,7 @@
 				608896312939472C00615C0A /* FavoriteBookApp.swift */,
 				608896332939472C00615C0A /* ContentView.swift */,
 				6088963F2939FDA700615C0A /* FavoriteModel.swift */,
+				60889641293A75D000615C0A /* DetailsView.swift */,
 				608896352939472E00615C0A /* Assets.xcassets */,
 				608896372939472E00615C0A /* Preview Content */,
 			);
@@ -141,6 +144,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				608896402939FDA700615C0A /* FavoriteModel.swift in Sources */,
+				60889642293A75D000615C0A /* DetailsView.swift in Sources */,
 				608896342939472C00615C0A /* ContentView.swift in Sources */,
 				608896322939472C00615C0A /* FavoriteBookApp.swift in Sources */,
 			);
