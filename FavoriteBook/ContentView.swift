@@ -16,7 +16,7 @@ struct ContentView: View {
                 ForEach(myFavorites) { favorite in // like for loop
                     Section(header: Text(favorite.title)) { //to show as a section
                         ForEach(favorite.elements) { element in // again like a for loop
-                            NavigationLink(destination: DetailsView()) { // to go to the DatailsView.
+                            NavigationLink(destination: DetailsView(chosenFavoriteElement: element)) { // to go to the DatailsView. //fix the bug write element which is in closure.
                                 //
                                 Text(element.name) // if we dont add NavigationView, we cant click elements and see them in blurred.
                                 
